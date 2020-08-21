@@ -1,0 +1,135 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Alata', cursive;
+    font-size: 13pt;
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+}
+h1 {
+    font-size: 15pt;
+    color: #fff;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px groove black;
+    padding: 10px;
+    background-color: black;
+    border-radius: 30px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.img-circle {
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#header {
+    background-image: url("https://i.pinimg.com/originals/a5/59/6f/a5596ffd4897b35688d3b3b882d7919d.jpg");
+    background-size: cover;
+}
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+#header p {
+    font-size: 25pt;
+    color: #3b464c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.section {
+    background-image: url("https://i.pinimg.com/originals/a5/59/6f/a5596ffd4897b35688d3b3b882d7919d.jpg");
+    background-size: cover;
+}
+.quote {
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 10px;
+}
+.section li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.section ul {
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: green;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+    box-shadow: 5px 5px black;
+}
+.submit:hover {
+    opacity: 0.8;
+    
+}
+.submit:active {
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+textarea {
+    height: 80px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #fff;
+    color: #000000;
+    border-radius: 5px;
+    width: 70%;
+    outline: 3px solid green;
+}
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: center;
+    padding-bottom: 10px;
+    color: grey;
+}
