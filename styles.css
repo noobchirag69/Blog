@@ -42,12 +42,12 @@ p {
 }
 #header img {
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 160px;
+    height: 160px;
     margin: auto;
 }
 #header p {
-    font-size: 25pt;
+    font-size: 30pt;
     color: #3b464c;
     padding-top: 5px;
     margin: 0;
